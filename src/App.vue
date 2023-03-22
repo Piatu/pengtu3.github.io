@@ -1,28 +1,36 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <!-- <Header></Header>
+    <MyMessage></MyMessage>
+    <Project></Project>
+    <Demo></Demo>
+    <Footer></Footer> -->
+    <!-- <JingDong></JingDong> -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+// import Header from "./view/header/index.vue";
+// import MyMessage from "./view/myMessage.vue/index.vue"
+// import Footer from './view/footer/index.vue'
+// import Project from './view/preject/index.vue'
+// import Demo from './view/demo/index.vue'
+
+// import JingDong from './components/Demo/jingdong.vue'
 export default {
+
   name: 'App',
   components: {
-    HelloWorld
+    // Header,
+    // MyMessage,
+    // Footer,
+    // Project,
+    // Demo,
+    // JingDong
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
