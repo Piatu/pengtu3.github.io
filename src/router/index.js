@@ -14,7 +14,7 @@ console.log(VueRouter);
 Vue.use(VueRouter);
 
 export default new VueRouter({
-  mode: 'history',
+  // mode: 'history',
   routes: [
     {
       path: '/',
